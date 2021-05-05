@@ -11,7 +11,7 @@ Scenario: Forgot Password Link
 Given user is on login page
 Then forgot your password link should be displayed
 
-
+@Skip
 Scenario: Login with correct credentials
 Given user is on login page
 When user enters username "dec2020secondbatch@gmail.com"

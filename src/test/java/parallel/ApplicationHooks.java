@@ -21,6 +21,7 @@ public class ApplicationHooks {
 	private ConfigReader confReader;
 	Properties prop;
 	
+	
 	@Before(value = "@Skip", order = 0 )
 	public void skip_scenario(Scenario scenario) {
 		System.err.println("SKIPPING SCENARIO :: " + scenario.getName());
@@ -30,8 +31,7 @@ public class ApplicationHooks {
 	@Before(order = 1 ) // in @Before, "0" will be executed first
 	public void getProperty() {
 		confReader = new ConfigReader();
-		prop = confReader.init_prop();
-
+		prop = confReader.init_prop();		
 	}
 	@Before(order = 1 )
 	public void launchBrowser() {

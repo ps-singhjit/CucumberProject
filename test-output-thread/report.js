@@ -1,59 +1,37 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "8ee15d7a-76d4-42a2-bfb3-97ad68b34d42",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts page title",
-    "start": 1619408400311,
-    "group": 15,
-    "content": "",
-    "tags": "@account,",
-    "end": 1619408449327,
-    "className": "passed"
-  },
-  {
-    "id": "d50776f2-10b8-4adf-ac1f-65a4b275ef9b",
+    "id": "6748122d-282d-4eee-b19e-edff6868ba6b",
     "feature": "Login page feature",
     "scenario": "Forgot Password Link",
-    "start": 1619408400020,
-    "group": 18,
+    "start": 1620138267826,
+    "group": 16,
     "content": "",
     "tags": "@login,@skip,",
-    "end": 1619408422531,
+    "end": 1620138275329,
     "className": "skipped"
   },
   {
-    "id": "2fb92998-2596-45ce-a81a-75c055bb5493",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1619408400307,
-    "group": 19,
-    "content": "",
-    "tags": "@login,",
-    "end": 1619408449371,
-    "className": "passed"
-  },
-  {
-    "id": "5326ca69-388e-496f-a656-79d322f41575",
+    "id": "e2ab2214-94eb-469e-9538-a51e2cb84fae",
     "feature": "Login page feature",
     "scenario": "Login page title",
-    "start": 1619408400304,
-    "group": 17,
+    "start": 1620138267972,
+    "group": 15,
     "content": "",
     "tags": "@login,",
-    "end": 1619408449239,
+    "end": 1620138277654,
     "className": "passed"
   },
   {
-    "id": "37ce11b4-903a-43ef-91d1-86d89d3df664",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts section count",
-    "start": 1619408400367,
-    "group": 16,
+    "id": "edeb6612-1873-4fe8-b213-53f41ff4e3b5",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1620138267980,
+    "group": 17,
     "content": "",
-    "tags": "@account,@smoke,",
-    "end": 1619408449416,
-    "className": "passed"
+    "tags": "@login,@skip,",
+    "end": 1620138275297,
+    "className": "skipped"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
@@ -68,14 +46,6 @@ CucumberHTML.timelineGroups.pushArray([
   {
     "id": 17,
     "content": "Thread[TestNG-PoolService-2,5,main]"
-  },
-  {
-    "id": 18,
-    "content": "Thread[TestNG-PoolService-3,5,main]"
-  },
-  {
-    "id": 19,
-    "content": "Thread[TestNG-PoolService-4,5,main]"
   }
 ]);
 });
